@@ -1,0 +1,76 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'arial';
+
+}
+
+.wrapper{
+  width: 800px;
+  margin: 10px auto;
+  padding:10px;
+}
+
+h1,
+p{
+  text-align:center;
+}
+
+p{
+  margin-bottom:10px;
+}
+
+.gridWrapper{
+  width:50%;
+  background:#eee;
+  border:1px dotted #999;
+  padding:10px;
+  margin:0 auto;
+}
+
+.gridWrapper > div{
+  display: inline-block;
+  width:25%;
+}
+
+.gridWrapper > div > span{
+  font-weight: bold;
+  text-transform: uppercase;
+  background:#000;
+  color:#fff;
+}
+
+.gridWrapper > div ul{
+  list-style: none;
+  font-size:14px;
+  margin:10px 0;
+}
+
+.sortBtn{
+  padding:10px;
+  box-shadow: 1px 5px 1px #ccc;
+  border-radius:5px;
+  font-size:12px;
+  background:#eee;
+  margin:10px;
+  
+}
+.filterWrapper{
+  width:auto;
+  margin:10px auto;
+  text-align: center;
+}
+
+.inputSearch{
+  width: 600px;
+  border : 1px solid #999;
+  height : 30px;
+  margin : 20px auto 0 auto;
+  font-size : 18px;
+  display : block;
+  padding:5px;
+  font-size:14px;
+}
